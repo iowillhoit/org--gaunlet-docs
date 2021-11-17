@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Cat__c-en_US</members>
+        <members>Cat__c-es_MX</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>Blimp__b</members>
+        <members>Cat__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Blimp__b.Altitude__c</members>
+        <members>Blimp__b.Make_ID__c</members>
+        <members>Blimp__b.Make__c</members>
+        <members>Blimp__b.Model_Id__c</members>
+        <members>Blimp__b.Model__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Blimp__b.Blimp_Index</members>
+        <name>Index</name>
+    </types>
+    <version>52.0</version>
+</Package>

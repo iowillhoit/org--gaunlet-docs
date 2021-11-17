@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Blimp</label>
+    <pluralLabel>Blimpies</pluralLabel>
+    <fields>
+        <fullName>Altitude__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Max altitude of Blimp (km)</inlineHelpText>
+        <label>Altitude</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Make_ID__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Make Id</inlineHelpText>
+        <label>Make ID</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Make__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What make of Blimp?</inlineHelpText>
+        <label>Make</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Model_Id__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Model Id</inlineHelpText>
+        <label>Model Id</label>
+        <length>15</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Model__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Model of Blimp</inlineHelpText>
+        <label>Model</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <indexes>
+        <fullName>Blimp_Index</fullName>
+        <fields>
+            <name>Make_ID__c</name>
+            <sortDirection>ASC</sortDirection>
+        </fields>
+        <fields>
+            <name>Model_Id__c</name>
+            <sortDirection>ASC</sortDirection>
+        </fields>
+        <label>Blimp Index</label>
+    </indexes>
+</CustomObject>
